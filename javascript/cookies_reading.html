@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h5>Hello!!! I am creating cookies here</h5>
+    <form  action="" name="myform" method="post">
+        Name: <input type="text" name="name" ><br><br>
+        Email: <input type="email" name="email"> <br> <br>
+        language: <input type="text" name="lang"> <br><br>
+         <input type="button" value="set cookies" name="set" onclick="setcookies()">
+         <input type="button" value="get cookies" name="get" onclick="getcookies()">    
+
+
+
+    </form>
+    <script>
+        function setcookies(){
+            document.cookie="Name="+ document.myform.name.value;
+            document.cookie="Email="+ document.myform.email.value;
+            document.cookie="Language="+document.myform.lang.value;
+        }
+        // alert(document.cookie);
+        function getcookies(){
+            var cookiearray= document.cookie.split(";");
+            for(var i=0;i<cookiearray.lenght;i++){
+                var valuearray=cookiearray[i].split("=");
+                alert(valuearray);
+            }
+            // alert(cookiearray);
+        }
+    </script>
+</body>
+</html>

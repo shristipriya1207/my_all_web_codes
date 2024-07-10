@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <ui class="parent">
+    <li>javascript</li>
+   </ui>
+   
+</body>
+<script>
+    function newli(langname){
+        const li=document.createElement('li');
+        li.classname="main"
+        li.style.backgroundColor ="green"
+        const addtext=document.createTextNode(langname)
+        li.appendchild(addtext)
+        document.querySelector('parent').appendchild(li)
+
+    }
+    newli("python")
+</script>
+</html>
