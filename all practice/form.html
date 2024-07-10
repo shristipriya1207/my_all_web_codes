@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .h1{
+        color:rgb(2, 10, 55);
+        width:20%;
+        background-color: rgb(87, 118, 246);
+        margin:50px ;
+            padding:10px;
+            margin-left: 200px;
+
+        }
+        .b1{
+             
+  background-color: #1825bd;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width:10%;
+  opacity: 0.9;
+
+
+        }
+        table{
+            text-align: center;
+        }
+        .d1{
+            margin:50px ;
+            padding:100px;
+            margin-left: 200px;
+            margin-top: 20px;
+
+        }
+        .main{
+            background-color: #1825bd;
+            color:white;
+            padding: 5px;
+            width: 100%;
+            display: flex;
+        }
+        .main div{
+            margin: 5px 10px;
+            width: 100%;
+        }
+        .d2{
+            color:rgb(0, 0, 0);
+            margin:auto;
+            display: flex;
+            padding: 5px;
+            width: 100%;
+
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div>Thursday,September 07,2023| 06:29:00pm</div>
+        <div>skip to main content|</div>
+        <div> Screen Reader access|</div>
+        <div>Home A- A A+</div>
+    </div>
+   <div class="d2">
+    <div>
+        <img src="F:\web\stamp.png" height="200" width="300">
+        
+    </div>
+    <div><h1>PASSPORT SEVA</h1>
+    <h4>PSP division</h4>
+    <h4> Ministry of external affairs,Government of india</h4></div>
+    <div  >
+        <img src="F:\web\passport.png" height="200" width="300">
+    
+</div>
+   </div>
+   <div class="main">
+    <div>HOME</div>
+    <div>ABOUT US</div>
+    <div> PASSPORT OFFICE</div>
+    <div>R TI</div>
+    <div> CITIZENS'CHARTER</div>
+    <div>CONTACT US</div>
+    <div>WHAT'S NEW</div>
+</div>
+
+    <h1 class="h1"> User Registration</h1>
+    <div >
+        <center><h5> <b>Important information:</b>Passport application can be processed at any.<br></h5>
+      <p>  <a href="https://portal1.passportindia.gov.in/AppOnlineProject/online/apptAvailStatus" title = "click here">click here</a> to check the appointment availability at all PSK.<br>
+         <a href="https://portal2.passportindia.gov.in/AppOnlineProject/pdf/CIR_0186917_Y.pdf" title="click here" > click here </a>to know more about Apply Anywhere in India scheme for Passport Services.
+       </p> </div></center>
+    <div class="d1">
+        <form> <table border="1" cellpadding="3" cellspacing="0">
+            <tr>
+                <td colspan="3">
+                    <label>Register to apply<sup style= " color:red"> *</sup>:</label>
+                    </td>
+                    <td colspan="3">
+                        
+                        <input type="radio" id="cpv delhi" value="cpv delhi" name="cpv delhi"> <label>CPV Delhi</label><br>
+                        
+                        <input type="radio" id="cpv delhi" value="cpv delhi" name ="cpv delhi"><label>Passport Office</label>
+
+
+                    </td>
+                    <td>
+                        Select the 'CPV Delhi' option to apply for Diplomatic/Official <br>passport at Consular, Passport and Visa (CPV) division, Delhi.
+                    </td>
+
+            </tr>
+            <tr>
+                <td colspan="3">Passport Office <sup style= " color:red"> *</sup>: <br>
+                    (As per Present Residential Address)</td>
+                    <td colspan="3"> 
+                       <select id="passport">
+                        <option value="patna"> patna</option>
+                        <option value="delhi"> delhi</option>
+                        <option value="ranchi"> ranchi</option>
+                        <option value="kolkata">kolkata</option>
+                        <option value="pune"> pune</option>
+                        <option value="bangalore"> bangalore</option>
+                       </select>
+
+                    </td>
+                    <td colspan="3">Tibetan Refugees applying for Identity Certificate<br> must register with 'Delhi' Passport Office.</td>
+            </tr>
+            <tr>
+                <td colspan="3">  Given Name (Max 45 Characters)<sup style= " color:red"> *</sup>:
+
+                </td>
+                <td colspan="3"> 
+                    <input type="text" id="name"  placeholder="Enter your first name">
+                </td>
+                <td colspan="3">
+                    First Name + Middle Name<br>
+                    Initials and honorifics (e.g. Dr.,Col.,etc.)<br> are not allowed.
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    Surname (Max 45 Characters)<sup style= " color:red"> *</sup>:
+                </td>
+                <td colspan="3">
+                    <input type="text" id="surname"  placeholder="Enter your last name">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">Date of Birth (DD/MM/YYYY)<sup style= " color:red"> *</sup>:</td>
+                <td>
+                    <input type="date" id="date">
+                </td>
+            </tr>
+            <tr>
+            <td colspan="3">E-mail Id (Max 35 Characters)<sup style= " color:red"> *</sup>:</td>
+            <td colspan="3">
+                <input type="email" id="email">
+            </td>
+            </tr>
+            <tr>
+                <td colspan="3">Id <sup style= " color:red"> *</sup>:</td>
+                <td colspan="3"> 
+                    <input type="email" placeholder="enter your id" id ="id" name="id">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">Password<sup style= " color:red"> *</sup>:</td>
+                <td colspan="3">
+                    <input type="password" placeholder="enter your passowrd" id="id" name="id">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">Confirm Passowrd<sup style= " color:red"> *</sup>:</td>
+                <td colspan="3">
+                    <input type="password" placeholder="enter your confirm password" id="id" name="id">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">Hint Questions<sup style= " color:red"> *</sup>:</td>
+                <td colspan="3"> 
+                    <select id="hint">
+                        <option value="birth place">birth place</option>
+                        <option value="fav color"> fav color</option>
+                        <option value="fav place"> fav place</option>
+                        <option value="fav food">fav food</option>
+                        <option value="fav pet"> fav pet</option>
+                        <option value="fav person"> fav person</option>
+                       </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">Hint Answer<sup style= " color:red"> *</sup>:</td>
+                <td colspan="3">
+                    <textarea placeholder="your revieew">
+                        </textarea>
+                </td>
+            </tr>
+</table>
+<button type="sumbit" class="b1" >REGISTER</button>
+</form>
+    
+    </div>
+</body>
+</html>

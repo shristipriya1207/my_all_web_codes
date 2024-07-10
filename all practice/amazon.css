@@ -1,0 +1,25 @@
+div{
+    background-color: black;
+    width:100%;
+    padding:0;
+    margin:0;
+    color:white;
+    height: 50px;
+    border:10px solid rgb(193, 116, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#amazon{
+    color:rgb(223, 145, 10);;
+    font-weight: bolder;
+}
+button{
+    background-color: rgb(227, 149, 14);
+}
+a{
+    /* margin-right:200px; */
+    text-decoration: none;
+    color:white;
+    padding :15px;
+}

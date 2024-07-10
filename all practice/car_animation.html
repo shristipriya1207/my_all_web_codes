@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container{
+            height:100vh;
+            width:100vw;
+            border:10px solid green;
+            display :flex;
+
+        }
+        .a,.b,.c,.d{
+            width:25%;
+            height:100%;
+            border:5px dashed rgb(242, 237, 237);
+            background-color: rgb(1, 1, 1);
+        }
+        /* .b{
+            width:25%;
+            height:100%;
+            border:5px solid black;
+        }
+        .c{
+            width:25%;
+            height:100%;
+            border:5px solid black;
+        }
+        .d{
+            width:25%;
+            height:100%;
+            border:5px solid black;
+        } */
+        .e{
+            width:50px;
+            height:50px;
+            background-color: red;
+            border-radius: 50%;
+            animation-name:e_ani;
+            animation-duration:1.5s;
+            animation-iteration-count:infinite;
+            animation-timing-function: linear;
+            animation-direction: reverse;
+            position:relative;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        
+
+        }
+        @keyframes e_ani {
+            from{
+                top:0;
+                left:70px;
+            }
+            to{
+                top:600px;
+                left:70px;
+            }
+            
+        }
+        .f{
+            width:50px;
+            height:50px;
+            background-color: blue;
+            border-radius: 50%;
+            animation-name:f_ani;
+            animation-duration:4s;
+            animation-iteration-count:infinite;
+            animation-timing-function: linear;
+            animation-direction: reverse;
+            position:relative;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        
+
+        }
+        @keyframes f_ani {
+            from{
+                top:600px;
+                left:70px;
+            }
+            to{
+                top:0;
+                left:70px;
+               
+            }
+            
+        }
+        
+        .g{
+            width:50px;
+            height:50px;
+            background-color:rgb(222, 30, 62);
+            border-radius: 50%;
+            animation-name:g_ani;
+            animation-duration:5s;
+            animation-iteration-count:infinite;
+            animation-timing-function: linear;
+            animation-direction: reverse;
+            position:relative;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        
+
+        }
+        @keyframes g_ani {
+            from{
+                top:0;
+                left:70px;
+            }
+            to{
+                top:600px;
+                left:70px;
+            }
+            
+        }
+        .h{
+            width:50px;
+            height:50px;
+            background-color:rgb(237, 226, 10);
+            border-radius: 50%;
+            animation-name:h_ani;
+            animation-duration:3s;
+            animation-iteration-count:infinite;
+            animation-timing-function: linear;
+            animation-direction: reverse;
+            position:relative;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        
+
+        }
+       
+            
+        @keyframes h_ani {
+            from{
+                top:600px;
+                left:70px;
+            }
+            to{
+                top:0;
+                left:70px;
+               
+            }}
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a">
+            <div class="e">
+
+            </div>
+        </div>
+        <div class="b">
+            <div class="f">
+
+            </div>
+        </div>
+        <div class="c">
+            <div class="g">
+
+            </div>
+        </div>
+        <div class="d">
+            <div class="h">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
